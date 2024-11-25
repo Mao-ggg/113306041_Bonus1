@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* 這裡是背景色，可根據需要調整 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 設置頁面全屏高度 */
+}
+
+/* 表單容器樣式 */
+.form-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff; /* 表單本身的背景色 */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加陰影效果 */
+}
+
+label {
+    font-size: 16px; /* 字體大小 */
+    font-weight: bold; /* 粗體字 */
+    color: #333; /* 字體顏色 */
+    display: block; /* 獨占一行 */
+    margin-bottom: 5px; /* 與輸入框的間距 */
+}
+
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* 字體大小 */
+    margin-bottom: 15px; /* 與下一個元素的間距 */
+}
+
+textarea {
+    resize: none; /* 禁用調整大小 */
+}
+
+.image-container {
+    display: flex; /* 使用 Flexbox */
+    justify-content: center; /* 水平置中 */
+    align-items: center; /* 垂直置中 (若需要) */
+    margin-top: 15px;
+}
+
+.image-container img {
+    width: 100%; /* 調整圖片寬度 (以百分比為單位) */
+    height: auto; /* 自動調整高度，保持圖片比例 */
+    border-radius: 5px; /* 圖片邊緣圓角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 增加陰影 */
+}
+
+.image-caption {
+    margin-top: 10px; /* 與圖片間距 */
+    font-size: 18px; /* 字體大小 */
+    font-weight: bold; /* 粗體 */
+    color: #555; /* 字體顏色 */
+    text-align: center; /* 文字置中 */
+}
